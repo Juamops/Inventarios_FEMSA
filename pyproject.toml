@@ -1,0 +1,36 @@
+[project]
+name = "inventarios-femsa"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Juan Pedro", email = "juampsyololol@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dvc>=3.67.1",
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "nbclient>=0.11.0",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "ruff>=0.17.1",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.15.0",
+]
+
+[project.scripts]
+inventarios-femsa = "inventarios_femsa:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"

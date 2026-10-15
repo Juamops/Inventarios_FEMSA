@@ -1,0 +1,46 @@
+## Entorno virtual
+.venv/
+*.venv/
+
+## Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+## Jupyter
+.ipynb_checkpoints/
+
+## Variables de entorno/credenciales
+.env
+*.env
+
+## Modelos
+models/
+
+## Datos: Ajustar extensiones según se necesite
+data/raw/*.csv
+data/processed/*.csv
+!data/processed/.gitkeep
+
+## Reportes
+!reports/figures/.gitkeep
+
+## Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+## Editores
+.vscode/
+.idea/
+
+## pytest
+.pytest_cache/
+
+## ruff
+.ruff_cache/
+
+## Quarto
+/.quarto/
+*_files/
+*_cache/
+*.quarto_ipynb*
